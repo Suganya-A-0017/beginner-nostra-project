@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nostra - Collections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Nostra</h2>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="collections">
+
+    <h1>Our Collections</h1>
+
+    <!-- Search -->
+    <input type="text" id="search" placeholder="Search products...">
+
+    <!-- Filter Buttons -->
+    <div class="filters">
+        <button onclick="filterProducts('all')">All</button>
+        <button onclick="filterProducts('men')">Men</button>
+        <button onclick="filterProducts('women')">Women</button>
+    </div>
+
+    <!-- Products -->
+    <div class="products">
+
+        <div class="product" data-category="men">
+            <img src="./images/img2.webp">
+            <h3>Men T-Shirt</h3>
+            <p>₹799</p>
+        </div>
+
+        <div class="product" data-category="women">
+            <img src="./images/img 4.webp"
+            <h3>Women Dress</h3>
+            <p>₹1499</p>
+        </div>
+
+        <div class="product" data-category="men">
+            <img src="./images/img3.webp"
+            <h3>Men Hoodie</h3>
+            <p>₹1299</p>
+        </div>
+
+        <div class="product" data-category="women">
+            <img src="./images/img5.webp>"
+            <h3>Women Top</h3>
+            <p>₹699</p>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
